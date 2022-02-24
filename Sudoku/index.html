@@ -2,449 +2,394 @@
 <html lang="pt-BR">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Sudoku</title>
-  <link rel="stylesheet" href="./assets/css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sudoku</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
-  <section class="container">
-    <form action="" method="get" class="form">
-      <h1>SUDOKU</h1>
-      <p>
-        Preencha o tabuleiro
-      </p>
-      <div class="board">
-        <table class="allSquares">
-          <tr>
-            <th>
-              <table class="square1">
-                <tr class="line1">
-                  <th>
-                    <label for="firstNum" ></label>
-                    <input type="number" class="firstNum"   max="9" min="1" default-value="0">
-                  </th>
-                  <th>
-                    <label for="secondNum" ></label>
-                    <input type="number" class="secondNum"   max="9" min="1" default-value="0">
-                  </th>
-                  <th>
-                    <label for="thirdNum" ></label>
-                    <input type="number" class="thirdNum"   max="9" min="1" default-value="0">
-                  </th>
-                </tr>
-                <tr class="line2">
-                  <th>
-                    <label for="firstNum" ></label>
-                    <input type="number" class="firstNum"   max="9" min="1" default-value="0">
-                  </th>
-                  <th>
-                    <label for="secondNum" ></label>
-                    <input type="number" class="secondNum"   max="9" min="1" default-value="0">
-                  </th>
-                  <th>
-                    <label for="thirdNum" ></label>
-                    <input type="number" class="thirdNum"   max="9" min="1" default-value="0">
-                  </th>
-                </tr>
-                <tr class="line3">
-                  <th>
-                    <label for="firstNum" ></label>
-                    <input type="number" class="firstNum"   max="9" min="1" default-value="0">
-                  </th>
-                  <th>
-                    <label for="secondNum" ></label>
-                    <input type="number" class="secondNum"   max="9" min="1" default-value="0">
-                  </th>
-                  <th>
-                    <label for="thirdNum" ></label>
-                    <input type="number" class="thirdNum"   max="9" min="1" default-value="0">
-                  </th>
-                </tr>
-              </table>
-            </th>
-            <th>
-              <table class="square2">
-                <tr class="line1">
-                  <th>
-                    <label for="firstNum" ></label>
-                    <input type="number" class="firstNum"   max="9" min="1" default-value="0">
-                  </th>
-                  <th>
-                    <label for="secondNum" ></label>
-                    <input type="number" class="secondNum"   max="9" min="1" default-value="0">
-                  </th>
-                  <th>
-                    <label for="thirdNum" ></label>
-                    <input type="number" class="thirdNum"   max="9" min="1" default-value="0">
-                  </th>
-                </tr>
-                <tr class="line2">
-                  <th>
-                    <label for="firstNum" ></label>
-                    <input type="number" class="firstNum"   max="9" min="1" default-value="0">
-                  </th>
-                  <th>
-                    <label for="secondNum" ></label>
-                    <input type="number" class="secondNum"   max="9" min="1" default-value="0">
-                  </th>
-                  <th>
-                    <label for="thirdNum" ></label>
-                    <input type="number" class="thirdNum"   max="9" min="1" default-value="0">
-                  </th>
-                </tr>
-                <tr class="line3">
-                  <th>
-                    <label for="firstNum" ></label>
-                    <input type="number" class="firstNum"   max="9" min="1" default-value="0">
-                  </th>
-                  <th>
-                    <label for="secondNum" ></label>
-                    <input type="number" class="secondNum"   max="9" min="1" default-value="0">
-                  </th>
-                  <th>
-                    <label for="thirdNum" ></label>
-                    <input type="number" class="thirdNum"   max="9" min="1" default-value="0">
-                  </th>
-                </tr>
-              </table>
-            </th>
-            <th>
-              <table class="square3">
-                <tr class="line1">
-                  <th>
-                    <label for="firstNum" ></label>
-                    <input type="number" class="firstNum"   max="9" min="1" default-value="0">
-                  </th>
-                  <th>
-                    <label for="secondNum" ></label>
-                    <input type="number" class="secondNum"   max="9" min="1" default-value="0">
-                  </th>
-                  <th>
-                    <label for="thirdNum" ></label>
-                    <input type="number" class="thirdNum"   max="9" min="1" default-value="0">
-                  </th>
-                </tr>
-                <tr class="line2">
-                  <th>
-                    <label for="firstNum" ></label>
-                    <input type="number" class="firstNum"   max="9" min="1" default-value="0">
-                  </th>
-                  <th>
-                    <label for="secondNum" ></label>
-                    <input type="number" class="secondNum"   max="9" min="1" default-value="0">
-                  </th>
-                  <th>
-                    <label for="thirdNum" ></label>
-                    <input type="number" class="thirdNum"   max="9" min="1" default-value="0">
-                  </th>
-                </tr>
-                <tr class="line3">
-                  <th>
-                    <label for="firstNum" ></label>
-                    <input type="number" class="firstNum"   max="9" min="1" default-value="0">
-                  </th>
-                  <th>
-                    <label for="secondNum" ></label>
-                    <input type="number" class="secondNum"   max="9" min="1" default-value="0">
-                  </th>
-                  <th>
-                    <label for="thirdNum" ></label>
-                    <input type="number" class="thirdNum"   max="9" min="1" default-value="0">
-                  </th>
-                </tr>
-              </table>
-            </th>
-          </tr>
-          <tr>
-            <th>
-              <table class="square4">
-                <tr class="line1">
-                  <th>
-                    <label for="firstNum" ></label>
-                    <input type="number" class="firstNum"   max="9" min="1" default-value="0">
-                  </th>
-                  <th>
-                    <label for="secondNum" ></label>
-                    <input type="number" class="secondNum"   max="9" min="1" default-value="0">
-                  </th>
-                  <th>
-                    <label for="thirdNum" ></label>
-                    <input type="number" class="thirdNum"   max="9" min="1" default-value="0">
-                  </th>
-                </tr>
-                <tr class="line2">
-                  <th>
-                    <label for="firstNum" ></label>
-                    <input type="number" class="firstNum"   max="9" min="1" default-value="0">
-                  </th>
-                  <th>
-                    <label for="secondNum" ></label>
-                    <input type="number" class="secondNum"   max="9" min="1" default-value="0">
-                  </th>
-                  <th>
-                    <label for="thirdNum" ></label>
-                    <input type="number" class="thirdNum"   max="9" min="1" default-value="0">
-                  </th>
-                </tr>
-                <tr class="line3">
-                  <th>
-                    <label for="firstNum" ></label>
-                    <input type="number" class="firstNum"   max="9" min="1" default-value="0">
-                  </th>
-                  <th>
-                    <label for="secondNum" ></label>
-                    <input type="number" class="secondNum"   max="9" min="1" default-value="0">
-                  </th>
-                  <th>
-                    <label for="thirdNum" ></label>
-                    <input type="number" class="thirdNum"   max="9" min="1" default-value="0">
-                  </th>
-                </tr>
-              </table>
-            </th>
-            <th>
-              <table class="square5">
-                <tr class="line1">
-                  <th>
-                    <label for="firstNum" ></label>
-                    <input type="number" class="firstNum"   max="9" min="1" default-value="0">
-                  </th>
-                  <th>
-                    <label for="secondNum" ></label>
-                    <input type="number" class="secondNum"   max="9" min="1" default-value="0">
-                  </th>
-                  <th>
-                    <label for="thirdNum" ></label>
-                    <input type="number" class="thirdNum"   max="9" min="1" default-value="0">
-                  </th>
-                </tr>
-                <tr class="line2">
-                  <th>
-                    <label for="firstNum" ></label>
-                    <input type="number" class="firstNum"   max="9" min="1" default-value="0">
-                  </th>
-                  <th>
-                    <label for="secondNum" ></label>
-                    <input type="number" class="secondNum"   max="9" min="1" default-value="0">
-                  </th>
-                  <th>
-                    <label for="thirdNum" ></label>
-                    <input type="number" class="thirdNum"   max="9" min="1" default-value="0">
-                  </th>
-                </tr>
-                <tr class="line3">
-                  <th>
-                    <label for="firstNum" ></label>
-                    <input type="number" class="firstNum"   max="9" min="1" default-value="0">
-                  </th>
-                  <th>
-                    <label for="secondNum" ></label>
-                    <input type="number" class="secondNum"   max="9" min="1" default-value="0">
-                  </th>
-                  <th>
-                    <label for="thirdNum" ></label>
-                    <input type="number" class="thirdNum"   max="9" min="1" default-value="0">
-                  </th>
-                </tr>
-              </table>
-            </th>
-            <th>
-              <table class="square6">
-                <tr class="line1">
-                  <th>
-                    <label for="firstNum" ></label>
-                    <input type="number" class="firstNum"   max="9" min="1" default-value="0">
-                  </th>
-                  <th>
-                    <label for="secondNum" ></label>
-                    <input type="number" class="secondNum"   max="9" min="1" default-value="0">
-                  </th>
-                  <th>
-                    <label for="thirdNum" ></label>
-                    <input type="number" class="thirdNum"   max="9" min="1" default-value="0">
-                  </th>
-                </tr>
-                <tr class="line2">
-                  <th>
-                    <label for="firstNum" ></label>
-                    <input type="number" class="firstNum"   max="9" min="1" default-value="0">
-                  </th>
-                  <th>
-                    <label for="secondNum" ></label>
-                    <input type="number" class="secondNum"   max="9" min="1" default-value="0">
-                  </th>
-                  <th>
-                    <label for="thirdNum" ></label>
-                    <input type="number" class="thirdNum"   max="9" min="1" default-value="0">
-                  </th>
-                </tr>
-                <tr class="line3">
-                  <th>
-                    <label for="firstNum" ></label>
-                    <input type="number" class="firstNum"   max="9" min="1" default-value="0">
-                  </th>
-                  <th>
-                    <label for="secondNum" ></label>
-                    <input type="number" class="secondNum"   max="9" min="1" default-value="0">
-                  </th>
-                  <th>
-                    <label for="thirdNum" ></label>
-                    <input type="number" class="thirdNum"   max="9" min="1" default-value="0">
-                  </th>
-                </tr>
-              </table>
-            </th>
-          </tr>
-          <tr>
-            <th>
-              <table class="square7">
-                <tr class="line1">
-                  <th>
-                    <label for="firstNum" ></label>
-                    <input type="number" class="firstNum"   max="9" min="1" default-value="0">
-                  </th>
-                  <th>
-                    <label for="secondNum" ></label>
-                    <input type="number" class="secondNum"   max="9" min="1" default-value="0">
-                  </th>
-                  <th>
-                    <label for="thirdNum" ></label>
-                    <input type="number" class="thirdNum"   max="9" min="1" default-value="0">
-                  </th>
-                </tr>
-                <tr class="line2">
-                  <th>
-                    <label for="firstNum" ></label>
-                    <input type="number" class="firstNum"   max="9" min="1" default-value="0">
-                  </th>
-                  <th>
-                    <label for="secondNum" ></label>
-                    <input type="number" class="secondNum"   max="9" min="1" default-value="0">
-                  </th>
-                  <th>
-                    <label for="thirdNum" ></label>
-                    <input type="number" class="thirdNum"   max="9" min="1" default-value="0">
-                  </th>
-                </tr>
-                <tr class="line3">
-                  <th>
-                    <label for="firstNum" ></label>
-                    <input type="number" class="firstNum"   max="9" min="1" default-value="0">
-                  </th>
-                  <th>
-                    <label for="secondNum" ></label>
-                    <input type="number" class="secondNum"   max="9" min="1" default-value="0">
-                  </th>
-                  <th>
-                    <label for="thirdNum" ></label>
-                    <input type="number" class="thirdNum"   max="9" min="1" default-value="0">
-                  </th>
-                </tr>
-              </table>
-            </th>
-            <th>
-              <table class="square8">
-                <tr class="line1">
-                  <th>
-                    <label for="firstNum" ></label>
-                    <input type="number" class="firstNum"   max="9" min="1" default-value="0">
-                  </th>
-                  <th>
-                    <label for="secondNum" ></label>
-                    <input type="number" class="secondNum"   max="9" min="1" default-value="0">
-                  </th>
-                  <th>
-                    <label for="thirdNum" ></label>
-                    <input type="number" class="thirdNum"   max="9" min="1" default-value="0">
-                  </th>
-                </tr>
-                <tr class="line2">
-                  <th>
-                    <label for="firstNum" ></label>
-                    <input type="number" class="firstNum"   max="9" min="1" default-value="0">
-                  </th>
-                  <th>
-                    <label for="secondNum" ></label>
-                    <input type="number" class="secondNum"   max="9" min="1" default-value="0">
-                  </th>
-                  <th>
-                    <label for="thirdNum" ></label>
-                    <input type="number" class="thirdNum"   max="9" min="1" default-value="0">
-                  </th>
-                </tr>
-                <tr class="line3">
-                  <th>
-                    <label for="firstNum" ></label>
-                    <input type="number" class="firstNum"   max="9" min="1" default-value="0">
-                  </th>
-                  <th>
-                    <label for="secondNum" ></label>
-                    <input type="number" class="secondNum"   max="9" min="1" default-value="0">
-                  </th>
-                  <th>
-                    <label for="thirdNum" ></label>
-                    <input type="number" class="thirdNum"   max="9" min="1" default-value="0">
-                  </th>
-                </tr>
-              </table>
-            </th>
-            <th>
-              <table class="square9">
-                <tr class="line1">
-                  <th>
-                    <label for="firstNum" ></label>
-                    <input type="number" class="firstNum"   max="9" min="1" default-value="0">
-                  </th>
-                  <th>
-                    <label for="secondNum" ></label>
-                    <input type="number" class="secondNum"   max="9" min="1" default-value="0">
-                  </th>
-                  <th>
-                    <label for="thirdNum" ></label>
-                    <input type="number" class="thirdNum"   max="9" min="1" default-value="0">
-                  </th>
-                </tr>
-                <tr class="line2">
-                  <th>
-                    <label for="firstNum" ></label>
-                    <input type="number" class="firstNum"   max="9" min="1" default-value="0">
-                  </th>
-                  <th>
-                    <label for="secondNum" ></label>
-                    <input type="number" class="secondNum"   max="9" min="1" default-value="0">
-                  </th>
-                  <th>
-                    <label for="thirdNum" ></label>
-                    <input type="number" class="thirdNum"   max="9" min="1" default-value="0">
-                  </th>
-                </tr>
-                <tr class="line3">
-                  <th>
-                    <label for="firstNum" ></label>
-                    <input type="number" class="firstNum"   max="9" min="1" default-value="0">
-                  </th>
-                  <th>
-                    <label for="secondNum" ></label>
-                    <input type="number" class="secondNum"   max="9" min="1" default-value="0">
-                  </th>
-                  <th>
-                    <label for="thirdNum" ></label>
-                    <input type="number" class="thirdNum"   max="9" min="1" default-value="0">
-                  </th>
-                </tr>
-              </table>
-            </th>
-          </tr>
-        </table>
-      </div>
-      <button>Resolver</button>
-    </form>
-  </section>
+    <section class="container">
+        <form action="" method="get" class="form">
+            <h1>SUDOKU</h1>
+            <p>
+                Preencha o tabuleiro
+            </p>
+            <div class="board">
+                <table class="tableSudoku">
+                    <tr class="linha1">
+                        <td>
+                            <input type="number" class="num1" max="9" min="1" default-value="0">
+                        </td>
+                        <td>
+                            <input type="number" class="num2" max="9" min="1" default-value="0">
+                        </td>
+                        <td id="num3">
+                            <input type="number" class="num3" max="9" min="1" default-value="0">
+                        </td>
+                        <td>
+                            <input type="number" class="num4" max="9" min="1" default-value="0">
+                        </td>
+                        <td>
+                            <input type="number" class="num5" max="9" min="1" default-value="0">
+                        </td>
+                        <td id="num6">
+                            <input type="number" class="num6" max="9" min="1" default-value="0">
+                        </td>
+                        <td>
+                            <input type="number" class="num7" max="9" min="1" default-value="0">
+                        </td>
+                        <td>
+                            <input type="number" class="num8" max="9" min="1" default-value="0">
+                        </td>
+                        <td>
+                            <input type="number" class="num9" max="9" min="1" default-value="0">
+                        </td>
+                    </tr>
+                    <tr class="linha2">
+                        <td>
+                            <input type="number" class="num1" max="9" min="1" default-value="0">
+                        </td>
+                        <td>
+                            <input type="number" class="num2" max="9" min="1" default-value="0">
+                        </td>
+                        <td id="num3">
+                            <input type="number" class="num3" max="9" min="1" default-value="0">
+                        </td>
+                        <td>
+                            <input type="number" class="num4" max="9" min="1" default-value="0">
+                        </td>
+                        <td>
+                            <input type="number" class="num5" max="9" min="1" default-value="0">
+                        </td>
+                        <td id="num6">
+                            <input type="number" class="num6" max="9" min="1" default-value="0">
+                        </td>
+                        <td>
+                            <input type="number" class="num7" max="9" min="1" default-value="0">
+                        </td>
+                        <td>
+                            <input type="number" class="num8" max="9" min="1" default-value="0">
+                        </td>
+                        <td>
+                            <input type="number" class="num9" max="9" min="1" default-value="0">
+                        </td>
+                    </tr>
+                    <tr class="linha3">
+                        <td>
+                            <input type="number" class="num1" max="9" min="1" default-value="0">
+                        </td>
+                        <td>
+                            <input type="number" class="num2" max="9" min="1" default-value="0">
+                        </td>
+                        <td id="num3">
+                            <input type="number" class="num3" max="9" min="1" default-value="0">
+                        </td>
+                        <td>
+                            <input type="number" class="num4" max="9" min="1" default-value="0">
+                        </td>
+                        <td>
+                            <input type="number" class="num5" max="9" min="1" default-value="0">
+                        </td>
+                        <td id="num6">
+                            <input type="number" class="num6" max="9" min="1" default-value="0">
+                        </td>
+                        <td>
+                            <input type="number" class="num7" max="9" min="1" default-value="0">
+                        </td>
+                        <td>
+                            <input type="number" class="num8" max="9" min="1" default-value="0">
+                        </td>
+                        <td>
+                            <input type="number" class="num9" max="9" min="1" default-value="0">
+                        </td>
+                    </tr>
+                    <tr class="linha4">
+                        <td>
+                            <input type="number" class="num1" max="9" min="1" default-value="0">
+                        </td>
+                        <td>
+                            <input type="number" class="num2" max="9" min="1" default-value="0">
+                        </td>
+                        <td id="num3">
+                            <input type="number" class="num3" max="9" min="1" default-value="0">
+                        </td>
+                        <td>
+                            <input type="number" class="num4" max="9" min="1" default-value="0">
+                        </td>
+                        <td>
+                            <input type="number" class="num5" max="9" min="1" default-value="0">
+                        </td>
+                        <td id="num6">
+                            <input type="number" class="num6" max="9" min="1" default-value="0">
+                        </td>
+                        <td>
+                            <input type="number" class="num7" max="9" min="1" default-value="0">
+                        </td>
+                        <td>
+                            <input type="number" class="num8" max="9" min="1" default-value="0">
+                        </td>
+                        <td>
+                            <input type="number" class="num9" max="9" min="1" default-value="0">
+                        </td>
+                    </tr>
+                    <tr class="linha5">
+                        <td>
+                            <input type="number" class="num1" max="9" min="1" default-value="0">
+                        </td>
+                        <td>
+                            <input type="number" class="num2" max="9" min="1" default-value="0">
+                        </td>
+                        <td id="num3">
+                            <input type="number" class="num3" max="9" min="1" default-value="0">
+                        </td>
+                        <td>
+                            <input type="number" class="num4" max="9" min="1" default-value="0">
+                        </td>
+                        <td>
+                            <input type="number" class="num5" max="9" min="1" default-value="0">
+                        </td>
+                        <td id="num6">
+                            <input type="number" class="num6" max="9" min="1" default-value="0">
+                        </td>
+                        <td>
+                            <input type="number" class="num7" max="9" min="1" default-value="0">
+                        </td>
+                        <td>
+                            <input type="number" class="num8" max="9" min="1" default-value="0">
+                        </td>
+                        <td>
+                            <input type="number" class="num9" max="9" min="1" default-value="0">
+                        </td>
+                    </tr>
+                    <tr class="linha6">
+                        <td>
+                            <input type="number" class="num1" max="9" min="1" default-value="0">
+                        </td>
+                        <td>
+                            <input type="number" class="num2" max="9" min="1" default-value="0">
+                        </td>
+                        <td id="num3">
+                            <input type="number" class="num3" max="9" min="1" default-value="0">
+                        </td>
+                        <td>
+                            <input type="number" class="num4" max="9" min="1" default-value="0">
+                        </td>
+                        <td>
+                            <input type="number" class="num5" max="9" min="1" default-value="0">
+                        </td>
+                        <td id="num6">
+                            <input type="number" class="num6" max="9" min="1" default-value="0">
+                        </td>
+                        <td>
+                            <input type="number" class="num7" max="9" min="1" default-value="0">
+                        </td>
+                        <td>
+                            <input type="number" class="num8" max="9" min="1" default-value="0">
+                        </td>
+                        <td>
+                            <input type="number" class="num9" max="9" min="1" default-value="0">
+                        </td>
+                    </tr>
+                    <tr class="linha7">
+                        <td>
+                            <input type="number" class="num1" max="9" min="1" default-value="0">
+                        </td>
+                        <td>
+                            <input type="number" class="num2" max="9" min="1" default-value="0">
+                        </td>
+                        <td id="num3">
+                            <input type="number" class="num3" max="9" min="1" default-value="0">
+                        </td>
+                        <td>
+                            <input type="number" class="num4" max="9" min="1" default-value="0">
+                        </td>
+                        <td>
+                            <input type="number" class="num5" max="9" min="1" default-value="0">
+                        </td>
+                        <td id="num6">
+                            <input type="number" class="num6" max="9" min="1" default-value="0">
+                        </td>
+                        <td>
+                            <input type="number" class="num7" max="9" min="1" default-value="0">
+                        </td>
+                        <td>
+                            <input type="number" class="num8" max="9" min="1" default-value="0">
+                        </td>
+                        <td>
+                            <input type="number" class="num9" max="9" min="1" default-value="0">
+                        </td>
+                    </tr>
+                    <tr class="linha8">
+                        <td>
+                            <input type="number" class="num1" max="9" min="1" default-value="0">
+                        </td>
+                        <td>
+                            <input type="number" class="num2" max="9" min="1" default-value="0">
+                        </td>
+                        <td id="num3">
+                            <input type="number" class="num3" max="9" min="1" default-value="0">
+                        </td>
+                        <td>
+                            <input type="number" class="num4" max="9" min="1" default-value="0">
+                        </td>
+                        <td>
+                            <input type="number" class="num5" max="9" min="1" default-value="0">
+                        </td>
+                        <td id="num6">
+                            <input type="number" class="num6" max="9" min="1" default-value="0">
+                        </td>
+                        <td>
+                            <input type="number" class="num7" max="9" min="1" default-value="0">
+                        </td>
+                        <td>
+                            <input type="number" class="num8" max="9" min="1" default-value="0">
+                        </td>
+                        <td>
+                            <input type="number" class="num9" max="9" min="1" default-value="0">
+                        </td>
+                    </tr>
+                    <tr class="linha9">
+                        <td>
+                            <input type="number" class="num1" max="9" min="1" default-value="0">
+                        </td>
+                        <td>
+                            <input type="number" class="num2" max="9" min="1" default-value="0">
+                        </td>
+                        <td id="num3">
+                            <input type="number" class="num3" max="9" min="1" default-value="0">
+                        </td>
+                        <td>
+                            <input type="number" class="num4" max="9" min="1" default-value="0">
+                        </td>
+                        <td>
+                            <input type="number" class="num5" max="9" min="1" default-value="0">
+                        </td>
+                        <td id="num6">
+                            <input type="number" class="num6" max="9" min="1" default-value="0">
+                        </td>
+                        <td>
+                            <input type="number" class="num7" max="9" min="1" default-value="0">
+                        </td>
+                        <td>
+                            <input type="number" class="num8" max="9" min="1" default-value="0">
+                        </td>
+                        <td>
+                            <input type="number" class="num9" max="9" min="1" default-value="0">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <button>Resolver</button>
+            <h2 class="header2">Solução</h2>
+            <div class="result">
+                <table class="solvedSudoku">
+                    <tr class="linha1">
+                        <td id="num1"></td>
+                        <td id="num2"></td>
+                        <td id="num3"></td>
+                        <td id="num4"></td>
+                        <td id="num5"></td>
+                        <td id="num6"></td>
+                        <td id="num7"></td>
+                        <td id="num8"></td>
+                        <td id="num9"></td>
+                    </tr>
+                    <tr class="linha2">
+                        <td id="num1"></td>
+                        <td id="num2"></td>
+                        <td id="num3"></td>
+                        <td id="num4"></td>
+                        <td id="num5"></td>
+                        <td id="num6"></td>
+                        <td id="num7"></td>
+                        <td id="num8"></td>
+                        <td id="num9"></td>
+                    </tr>
+                    <tr class="linha3">
+                        <td id="num1"></td>
+                        <td id="num2"></td>
+                        <td id="num3"></td>
+                        <td id="num4"></td>
+                        <td id="num5"></td>
+                        <td id="num6"></td>
+                        <td id="num7"></td>
+                        <td id="num8"></td>
+                        <td id="num9"></td>
+                    </tr>
+                    <tr class="linha4">
+                        <td id="num1"></td>
+                        <td id="num2"></td>
+                        <td id="num3"></td>
+                        <td id="num4"></td>
+                        <td id="num5"></td>
+                        <td id="num6"></td>
+                        <td id="num7"></td>
+                        <td id="num8"></td>
+                        <td id="num9"></td>
+                    </tr>
+                    <tr class="linha5">
+                        <td id="num1"></td>
+                        <td id="num2"></td>
+                        <td id="num3"></td>
+                        <td id="num4"></td>
+                        <td id="num5"></td>
+                        <td id="num6"></td>
+                        <td id="num7"></td>
+                        <td id="num8"></td>
+                        <td id="num9"></td>
+                    </tr>
+                    <tr class="linha6">
+                        <td id="num1"></td>
+                        <td id="num2"></td>
+                        <td id="num3"></td>
+                        <td id="num4"></td>
+                        <td id="num5"></td>
+                        <td id="num6"></td>
+                        <td id="num7"></td>
+                        <td id="num8"></td>
+                        <td id="num9"></td>
+                    </tr>
+                    <tr class="linha7">
+                        <td id="num1"></td>
+                        <td id="num2"></td>
+                        <td id="num3"></td>
+                        <td id="num4"></td>
+                        <td id="num5"></td>
+                        <td id="num6"></td>
+                        <td id="num7"></td>
+                        <td id="num8"></td>
+                        <td id="num9"></td>
+                    </tr>
+                    <tr class="linha8">
+                        <td id="num1"></td>
+                        <td id="num2"></td>
+                        <td id="num3"></td>
+                        <td id="num4"></td>
+                        <td id="num5"></td>
+                        <td id="num6"></td>
+                        <td id="num7"></td>
+                        <td id="num8"></td>
+                        <td id="num9"></td>
+                    </tr>
+                    <tr class="linha9">
+                        <td id="num1"></td>
+                        <td id="num2"></td>
+                        <td id="num3"></td>
+                        <td id="num4"></td>
+                        <td id="num5"></td>
+                        <td id="num6"></td>
+                        <td id="num7"></td>
+                        <td id="num8"></td>
+                        <td id="num9"></td>
+                    </tr>
+                </table>
+            </div>
+        </form>
+    </section>
 
-  <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/main.js"></script>
 </body>
 
 </html>
